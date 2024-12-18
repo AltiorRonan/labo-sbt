@@ -14,6 +14,7 @@ final case class VbDoSomething() extends DoSomething {
     )
 }
 
+// Run: $ sbt "VB/runMain fr.altior.vb.MainVb"
 object MainVb {
 
   def main(args: Array[String]): Unit = {

@@ -14,13 +14,12 @@ final case class VaDoSomething() extends DoSomething {
     )
 }
 
+// Run: $ sbt "VA/runMain fr.altior.labo.va.MainVa"
 object MainVa {
 
   def main(args: Array[String]): Unit = {
-    fdsfsqd
     VaDoSomething().commonRun("Version A")
   }
-
 }
 
 
