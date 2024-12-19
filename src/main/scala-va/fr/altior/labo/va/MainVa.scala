@@ -19,7 +19,6 @@ final case class VaDoSomething() extends DoSomething {
 object MainVa {
 
   def main(args: Array[String]): Unit = {
-
     VaDoSomething().commonRun("Version A")
   }
 }
