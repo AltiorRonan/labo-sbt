@@ -5,6 +5,7 @@ _: default
 # Run Version A.
 [group('Labo SBT')]
 run-va:
+    just clean-all
     sbt "VA/runMain fr.altior.labo.va.MainVa"
 
 # Publish Version A.
@@ -26,6 +27,7 @@ va:
 # Run Version B.
 [group('Labo SBT')]
 run-vb:
+    just clean-all
     sbt "VB/runMain fr.altior.vb.MainVb"
 
 # Publish Version B.
